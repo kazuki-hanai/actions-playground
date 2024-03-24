@@ -1,0 +1,13 @@
+name: Test actions with quotes
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: kazuki-hanai/actions-playground/.github/actions/echo@main
+
