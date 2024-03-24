@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: kazuki-hanai/actions-playground/.github/actions/echo@v1'
+      - uses: 'kazuki-hanai/actions-playground/.github/actions/echo@v1'
 
